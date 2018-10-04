@@ -1,0 +1,259 @@
+.hero {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.bg {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+  height: 100vh;
+  background-image: url('../images/1Artboard-3.png');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mnt1 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 3;
+  height: 550px;
+  background-image: url('../images/2Artboard-3.png');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.mnt2 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 4;
+  height: 520px;
+  background-image: url('../images/3Artboard-3.png');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/bg2.png');
+  background-position: 0px 0px;
+  background-size: 1920px;
+}
+
+.mnt3 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 5;
+  height: 500px;
+  background-image: url('../images/4Artboard-3.png');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.mnt4 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 6;
+  overflow: hidden;
+  height: 450px;
+  background-image: url('../images/5Artboard-3.png');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mnt5 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 7;
+  overflow: hidden;
+  height: 400px;
+  background-image: url('../images/6Artboard-3.png');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mnt6 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 8;
+  overflow: hidden;
+  height: 250px;
+  background-image: url('../images/7Artboard-3.png');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mnt7 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -5px;
+  z-index: 9;
+  overflow: hidden;
+  height: 200px;
+  background-image: url('../images/8Artboard-3.png');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sun {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+  height: 700px;
+  background-image: url('../images/sunArtboard-3.png');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.stars {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  height: 700px;
+  background-image: url('../images/starsArtboard-3.png');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.parallax-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heading {
+  position: absolute;
+  top: 232px;
+  z-index: 7;
+  font-family: Gilroy, sans-serif;
+  color: #333;
+  font-weight: 700;
+}
+
+.heading-2 {
+  font-family: Gilroy, sans-serif;
+  color: #fff;
+  line-height: 38px;
+  font-weight: 300;
+}
+
+@media (max-width: 991px) {
+  .heading {
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .heading {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 479px) {
+  .parallax-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .heading {
+    margin-top: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 39px;
+    line-height: 36px;
+    text-align: center;
+  }
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
